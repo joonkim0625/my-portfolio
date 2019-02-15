@@ -42,3 +42,42 @@ iframe {
   bottom: 0;
   width: 100%;
 }
+
+/* buttons in Contact.js styles when hovered or focused */
+
+a.hover {
+  transition: all 0.4s ease;
+  background-color: #191919;
+}
+
+a.hover:hover,
+a.hover:focus {
+  background-color: #eba300;
+}
+
+/* hover styles for buttons in Intro.js */
+
+/* btn to project */
+button.btnToProject {
+  transition: all 0.4s ease;
+  border: 1px solid #eba300;
+}
+
+button.btnToProject:hover,
+button.btnToProject:focus {
+  border: 1px solid #eba300;
+  background-color: transparent;
+}
+
+/* btn to contact */
+
+button.btnToContact {
+  transition: all 0.4s ease;
+  border: 1px solid #545b62;
+}
+
+button.btnToContact:hover,
+button.btnToContact:focus {
+  border: 1px solid #545b62;
+  background-color: #6c757d;
+}

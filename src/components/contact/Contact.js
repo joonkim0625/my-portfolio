@@ -147,44 +147,38 @@ const Contact = props => {
             </div>
           </CardActions>
           <CardActions className={classes.linkWrap}>
-            <Button className={classes.links}>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/joonkim0625"
-              >
-                <FontAwesomeIcon
-                  className="animated fadeInLeft   delay-1s "
-                  icon={faGithub}
-                  color={"white"}
-                />
-              </a>
+            <Button
+              target="_blank"
+              href="https://github.com/joonkim0625"
+              className={classNames(classes.links, "hover")}
+            >
+              <FontAwesomeIcon
+                className="animated fadeInLeft   delay-1s "
+                icon={faGithub}
+                color={"white"}
+              />
             </Button>{" "}
-            <Button className={classes.links}>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto:joonkim0625@gmail.com"
-              >
-                <FontAwesomeIcon
-                  className="animated fadeIn delay-1s "
-                  icon={faEnvelope}
-                  color={"white"}
-                />
-              </a>
+            <Button
+              target="_blank"
+              href="mailto:joonkim0625@gmail.com"
+              className={classNames(classes.links, "hover")}
+            >
+              <FontAwesomeIcon
+                className="animated fadeIn delay-1s "
+                icon={faEnvelope}
+                color={"white"}
+              />
             </Button>
-            <Button className={classes.links}>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1ysa-0jieEVpSW156ojsRaVVuFk2mxM4E/view?usp=sharing"
-              >
-                <FontAwesomeIcon
-                  className="animated fadeInRight delay-1s "
-                  icon={faFilePdf}
-                  color={"white"}
-                />
-              </a>
+            <Button
+              target="_blank"
+              href="https://drive.google.com/file/d/1ysa-0jieEVpSW156ojsRaVVuFk2mxM4E/view?usp=sharing"
+              className={classNames(classes.links, "hover")}
+            >
+              <FontAwesomeIcon
+                className="animated fadeInRight delay-1s "
+                icon={faFilePdf}
+                color={"white"}
+              />
             </Button>
           </CardActions>
         </Card>

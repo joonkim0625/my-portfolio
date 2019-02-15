@@ -27,8 +27,11 @@ const styles = theme => ({
     top: "50%",
     transform: "translateY(-50%)",
     left: "10%",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "32px !important"
+    },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "34px"
+      fontSize: "38px"
     },
     [theme.breakpoints.up("md")]: {
       fontSize: "46px"
@@ -55,6 +58,7 @@ const styles = theme => ({
   },
   buttonToProject: {
     backgroundColor: "#eba300",
+
     color: "#fff"
   },
   buttonToContact: {
@@ -68,7 +72,6 @@ const Intro = props => {
   const { classes } = props;
   return (
     <div>
-      <Navbar />
       <div
         className={classNames(classes.layout, "animated fadeIn delay-1s slow")}
         pt="40%"
@@ -103,7 +106,7 @@ const Intro = props => {
           underline="none"
         >
           <Button
-            className={classes.buttonToProject}
+            className={classNames(classes.buttonToProject, "btnToProject")}
             size="large"
             variant="contained"
           >
@@ -117,7 +120,7 @@ const Intro = props => {
           underline="none"
         >
           <Button
-            className={classes.buttonToContact}
+            className={classNames(classes.buttonToContact, "btnToContact")}
             size="large"
             variant="contained"
           >

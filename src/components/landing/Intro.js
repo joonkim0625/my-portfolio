@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import PropTypes from "prop-types";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Button from "@material-ui/core/Button";
@@ -6,8 +7,6 @@ import { Link as RouterLink } from "react-router-dom";
 import Link from "@material-ui/core/Link";
 import classNames from "classnames";
 
-import AnimateLoad from "../../hoc/AnimateLoad";
-import "animate.css";
 import Typist from "react-typist";
 import TextLoop from "react-text-loop";
 

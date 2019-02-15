@@ -1,9 +1,9 @@
 import React from "react";
+import "animate.css";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
-import "animate.css";
 import Links from "./Links";
 
 const styles = theme => ({

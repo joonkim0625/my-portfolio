@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "../layout/Footer";
 import "animate.css";
+import Footer from "../layout/Footer";
 import classNames from "classnames";
 
 // material ui

@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import { Link as RouterLink } from "react-router-dom";

@@ -26,7 +26,7 @@ const styles = theme => ({
 
     top: "50%",
     transform: "translateY(-50%)",
-    left: "10%",
+    left: "8%",
     [theme.breakpoints.down("xs")]: {
       fontSize: "32px !important"
     },
@@ -43,7 +43,7 @@ const styles = theme => ({
 
   content: {
     height: "165px",
-    minWidth: "360px"
+    minWidth: "320px"
   },
 
   text: {
@@ -72,6 +72,7 @@ const Intro = props => {
   const { classes } = props;
   return (
     <div>
+      <Navbar />
       <div
         className={classNames(classes.layout, "animated fadeIn delay-1s slow")}
         pt="40%"

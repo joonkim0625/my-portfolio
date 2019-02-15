@@ -1,10 +1,10 @@
 import React from "react";
+import "animate.css";
 import Footer from "../layout/Footer";
 import PropTypes from "prop-types";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Button from "@material-ui/core/Button";
 import { withStyles } from "@material-ui/core/styles";
-import "animate.css";
 import classNames from "classnames";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";

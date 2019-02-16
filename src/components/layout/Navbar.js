@@ -17,8 +17,8 @@ const styles = theme => ({
   toolbarTitle: {
     flex: 1,
     fontSize: "1rem",
-    letterSpacing: "2px",
-    fontWeight: 600,
+
+    fontWeight: 400,
 
     [theme.breakpoints.up("md")]: {
       marginLeft: "-25rem"
@@ -64,7 +64,7 @@ const Navbar = props => {
           <div className={classes.toolbarTitle}>
             <Typography align="center" color="inherit" variant="title">
               <Link color="inherit" component={LinkToHome} underline="none">
-                김현준
+                Home
               </Link>
             </Typography>
           </div>

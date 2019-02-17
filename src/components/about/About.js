@@ -39,7 +39,8 @@ const styles = theme => ({
   },
 
   cardContent: {
-    width: "90%"
+    width: "90%",
+    height: "100vh"
   },
 
   card: {

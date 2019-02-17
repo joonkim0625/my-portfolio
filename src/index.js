@@ -1,5 +1,5 @@
 import "babel-polyfill";
-import "react-app-polyfill";
+
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";

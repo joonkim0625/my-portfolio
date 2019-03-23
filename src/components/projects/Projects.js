@@ -122,7 +122,7 @@ const cards = [
     stacks: "HTML, CSS, JavaScript",
     // links
     github: "https://github.com/joonkim0625/personal-schedule-manager",
-    homepage: "https://myplanner-app.firebaseapp.com/03-21-2019",
+    homepage: "https://i.postimg.cc/pd0MLJ9g/my-Planner.png",
     youtube: ""
   },
   {

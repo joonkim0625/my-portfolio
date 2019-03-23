@@ -35,7 +35,7 @@ function Links(props) {
           className={classes.link}
           color="inherit"
         >
-          프로젝트
+          Projects
         </Link>
         <Link component={LinkToAbout} className={classes.link} color="inherit">
           About

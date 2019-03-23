@@ -8,6 +8,7 @@ import { withStyles } from "@material-ui/core/styles";
 import classNames from "classnames";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
+import Tooltip from "@material-ui/core/Tooltip";
 
 // icons
 
@@ -15,10 +16,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faJsSquare } from "@fortawesome/free-brands-svg-icons";
-import { faReact } from "@fortawesome/free-brands-svg-icons";
-import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
-import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
+// import { faJsSquare } from "@fortawesome/free-brands-svg-icons";
+// import { faReact } from "@fortawesome/free-brands-svg-icons";
+// import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+// import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import Typography from "@material-ui/core/Typography";
 import Navbar from "../layout/Navbar";
 
@@ -116,7 +117,7 @@ const Contact = props => {
           >
             저에게 연락주세요!
           </Typography>
-          <CardActions className={classes.stacks}>
+          {/* <CardActions className={classes.stacks}>
             <div className={classes.button}>
               <FontAwesomeIcon
                 className="animated fadeInLeft delay-1s "
@@ -145,41 +146,47 @@ const Contact = props => {
                 color={"white"}
               />
             </div>
-          </CardActions>
+          </CardActions> */}
           <CardActions className={classes.linkWrap}>
-            <Button
-              target="_blank"
-              href="https://github.com/joonkim0625"
-              className={classNames(classes.links, "hover")}
-            >
-              <FontAwesomeIcon
-                className="animated fadeInLeft   delay-1s "
-                icon={faGithub}
-                color={"white"}
-              />
-            </Button>{" "}
-            <Button
-              target="_blank"
-              href="mailto:joonkim0625@gmail.com"
-              className={classNames(classes.links, "hover")}
-            >
-              <FontAwesomeIcon
-                className="animated fadeIn delay-1s "
-                icon={faEnvelope}
-                color={"white"}
-              />
-            </Button>
-            <Button
-              target="_blank"
-              href="https://drive.google.com/file/d/1ysa-0jieEVpSW156ojsRaVVuFk2mxM4E/view?usp=sharing"
-              className={classNames(classes.links, "hover")}
-            >
-              <FontAwesomeIcon
-                className="animated fadeInRight delay-1s "
-                icon={faFilePdf}
-                color={"white"}
-              />
-            </Button>
+            <Tooltip title="깃헙 페이지 바로가기">
+              <Button
+                target="_blank"
+                href="https://github.com/joonkim0625"
+                className={classNames(classes.links, "hover")}
+              >
+                <FontAwesomeIcon
+                  className="animated fadeInLeft   delay-1s "
+                  icon={faGithub}
+                  color={"white"}
+                />
+              </Button>
+            </Tooltip>
+            <Tooltip title="이메일 보내기">
+              <Button
+                target="_blank"
+                href="mailto:joonkim0625@gmail.com"
+                className={classNames(classes.links, "hover")}
+              >
+                <FontAwesomeIcon
+                  className="animated fadeIn delay-1s "
+                  icon={faEnvelope}
+                  color={"white"}
+                />
+              </Button>
+            </Tooltip>
+            <Tooltip title="이력서 보러가기">
+              <Button
+                target="_blank"
+                href="https://drive.google.com/file/d/1ysa-0jieEVpSW156ojsRaVVuFk2mxM4E/view?usp=sharing"
+                className={classNames(classes.links, "hover")}
+              >
+                <FontAwesomeIcon
+                  className="animated fadeInRight delay-1s "
+                  icon={faFilePdf}
+                  color={"white"}
+                />
+              </Button>
+            </Tooltip>
           </CardActions>
         </Card>
       </div>

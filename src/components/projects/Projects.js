@@ -97,6 +97,36 @@ const cards = [
   },
   {
     id: 2,
+    title: "Schedule Manager",
+    img: "https://i.postimg.cc/sXJqww5Q/2019-03-21-8-37-16.png",
+    src: "",
+    summary: "날짜별로 개인의 일정을 간단하게 적을 수 있는 앱을 구현했습니다",
+    content: [
+      {
+        p: "날짜에 따라서 할 일 기록 가능",
+        id: 1
+      },
+      {
+        p: "완료된 할 일과 완료되지 않은 할 일을 달력에 표시",
+        id: 2
+      },
+      {
+        p: "회원가입 및 로그인의 구현 - 로그인(test@test.com / 123456)",
+        id: 3
+      },
+      {
+        p: "React, Redux, Material-UI, Firebase",
+        id: 4
+      }
+    ],
+    stacks: "HTML, CSS, JavaScript",
+    // links
+    github: "https://github.com/joonkim0625/personal-schedule-manager",
+    homepage: "https://myplanner-app.firebaseapp.com/03-21-2019",
+    youtube: ""
+  },
+  {
+    id: 3,
     title: "Omok - 오목 게임 구현",
     img: "https://i.postimg.cc/jdcYXcGZ/2019-01-09-11-29-28.png",
     src: "",

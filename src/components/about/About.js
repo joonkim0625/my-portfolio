@@ -100,9 +100,6 @@ const styles = theme => ({
     },
     [theme.breakpoints.up("md")]: {
       fontSize: "1.2rem"
-    },
-    [theme.breakpoints.up("lg")]: {
-      fontSize: "1.3rem"
     }
   },
   divider: {
@@ -120,9 +117,6 @@ const styles = theme => ({
     },
     [theme.breakpoints.up("md")]: {
       fontSize: "1.2rem"
-    },
-    [theme.breakpoints.up("lg")]: {
-      fontSize: "1.3rem"
     }
   },
   skills: {

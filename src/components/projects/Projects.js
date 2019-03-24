@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "animate.css";
 import Footer from "../layout/Footer";
 import classNames from "classnames";
@@ -161,6 +161,9 @@ const cards = [
 class Projects extends Component {
   render() {
     const { classes } = this.props;
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    });
     return (
       <React.Fragment>
         <Navbar />

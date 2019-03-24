@@ -40,24 +40,6 @@ const styles = theme => ({
     minHeight: "100vh",
     backgroundColor: "#191919"
   },
-  // avatar: {
-  //   display: "inline-block",
-  //   margin: 10,
-  //   borderRadius: 0,
-
-  //   [theme.breakpoints.down("sm")]: {
-  //     height: "150px",
-  //     width: "150px"
-  //   },
-  //   [theme.breakpoints.up("md")]: {
-  //     height: "190px",
-  //     width: "190px"
-  //   },
-  //   [theme.breakpoints.up("lg")]: {
-  //     height: "230px",
-  //     width: "230px"
-  //   }
-  // },
 
   avatar: {
     width: "176px",
@@ -76,10 +58,8 @@ const styles = theme => ({
   },
 
   card: {
-    // borderRadius: 0,
-    // padding: "100px 30px 150px 30px",
     backgroundColor: "#191919",
-    // boxSizing: "border- box",
+
     width: "100 %",
     marginLeft: "auto",
     marginRight: "auto",
@@ -221,8 +201,7 @@ const About = props => {
                 <ListItemText
                   primary={
                     <p className={classes.textStyles}>
-                      미국에서의 생활 경험 덕분에 영어로 된 개발 자료를 접하는데
-                      문제가 없습니다.
+                      미국에서의 생활 경험 덕분에 영어에 능숙합니다.
                     </p>
                   }
                 />

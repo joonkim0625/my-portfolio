@@ -98,7 +98,7 @@ const cards = [
   {
     id: 2,
     title: "Schedule Manager",
-    img: "https://i.postimg.cc/sXJqww5Q/2019-03-21-8-37-16.png",
+    img: "https://i.postimg.cc/pd0MLJ9g/my-Planner.png",
     src: "",
     summary: "날짜별로 개인의 일정을 간단하게 적을 수 있는 앱을 구현했습니다",
     content: [

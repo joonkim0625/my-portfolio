@@ -8,8 +8,17 @@ import Links from "./Links";
 
 const styles = theme => ({
   toolbar: {
-    display: "flex",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
+    [theme.breakpoints.down("sm")]: {
+      height: "48px",
+      paddingLeft: "16px",
+      paddingRight: "16px"
+    },
+    [theme.breakpoints.up("sm")]: {
+      height: "64px",
+      paddingLeft: "24px",
+      paddingRight: "24px"
+    }
   },
   footerStyle: {
     backgroundColor: "#232323",

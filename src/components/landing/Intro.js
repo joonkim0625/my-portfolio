@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "animate.css";
 import PropTypes from "prop-types";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -70,6 +70,10 @@ const styles = theme => ({
 
 const Intro = props => {
   const { classes } = props;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <Navbar />

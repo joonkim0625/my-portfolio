@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../layout/Footer";
 import Navbar from "../layout/Navbar";
 import PropTypes from "prop-types";
@@ -136,6 +136,10 @@ const styles = theme => ({
 
 const About = props => {
   const { classes } = props;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <React.Fragment>
       <Navbar />

@@ -208,35 +208,35 @@ class Projects extends Component {
                     className={classes.cardActions}
                     disableActionSpacing
                   >
-                    <Button className={classes.button}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={card.github}
-                      >
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={card.github}
+                    >
+                      <Button className={classes.button}>
                         <FontAwesomeIcon icon={faGithub} color={"black"} />
-                      </a>
-                    </Button>
-                    <Button className={classes.button}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={card.homepage}
-                      >
+                      </Button>
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={card.homepage}
+                    >
+                      <Button className={classes.button}>
                         <FontAwesomeIcon icon={faHome} color={"black"} />
-                      </a>
-                    </Button>
+                      </Button>
+                    </a>
 
                     {card.youtube !== "" ? (
-                      <Button className={classes.button}>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={card.youtube}
-                        >
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={card.youtube}
+                      >
+                        <Button className={classes.button}>
                           <FontAwesomeIcon icon={faYoutube} color={"black"} />
-                        </a>
-                      </Button>
+                        </Button>
+                      </a>
                     ) : null}
                   </CardActions>
                 </Card>
